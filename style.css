@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&display=swap');
+
+.container
+{
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.lista__texto {
+    margin-bottom: 1.6rem;
+    line-height: normal;
+    padding: 1rem;
+    
+}
+
+
+
+.titulo__lista {
+    font-size: 2rem;
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 2.4rem;
+    margin-top: 6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.lista {
+    padding: 1.4rem;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.bloco__mod {
+    background-color: #c27aaa6c;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 60%;
+    margin: 0 auto;
+}
+.bloco__faq {
+    background-color: #007ad13f;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.bloco
+{
+    margin-top: 1rem;
+}
