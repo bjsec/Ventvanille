@@ -137,12 +137,49 @@ body
     font-weight: 700;
 }
 
+.whoiam{
+
+    margin-top: 2rem;
+    line-height: normal;
+}
+
+.whoiamtitulo{    
+    font-size: 1.7rem;
+    text-align: center;
+    margin: 1rem;
+    font-weight: 700;
+}
+
+.whoiamFoto{
+    width: 350px;
+    margin: 0 auto;
+
+}
+
+.arcticlewhoiam{
+    display: flex;
+    
+}
 
 
+.somaf{
+    display:flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    
+}
 
+.foto1{
+    width: 300px;
+}
 
-
-
+.depoimentos{
+        font-size: 1.7rem;
+    text-align: center;
+    margin: 1rem;
+    font-weight: 700;
+}
 
 
 
