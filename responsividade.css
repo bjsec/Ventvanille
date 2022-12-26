@@ -1,6 +1,39 @@
 /* tablet: 768px
 desktop: 1200px */
+@media screen and (min-width: 768px)
+{
+.antes_depois
+{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
 
+.somaf
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.foto1
+{
+    width: 240px;
+     transition: .6s;
+}
+
+.foto1:hover
+{
+    
+    cursor: pointer;
+   
+    transform: scale(1.1);
+}
+
+}
 
 @media screen and (min-width: 1200px)
 {
