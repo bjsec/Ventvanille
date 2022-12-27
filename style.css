@@ -181,6 +181,21 @@ body
     font-weight: 700;
 }
 
+.comeceja{
+
+    margin-top: 2rem;
+    font-size: 1.7rem;
+    text-align: center;
+    margin: 1rem;
+    font-weight: 700;
+}
+
+.garantia{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
 
 
 
