@@ -66,16 +66,19 @@ desktop: 1200px */
 .arcticlewhoiam{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    
+    align-items: center;  
+}
+
+.arcticlewhoiam
+{
+    vertical-align: middle;
 }
 
 .whoiamFoto
 {
     margin-right: 1rem;
-    width: 22%;
-    /* height: 60%; */
-    vertical-align: text-bottom;
+    width: 20%;
+  
 }
 
 .antes_depois
@@ -107,5 +110,21 @@ desktop: 1200px */
     cursor: pointer;
    
     transform: scale(1.1);
+}
+
+
+.galeria_imagem
+{
+    border-radius: 100%;
+    width: 150px;
+	height: 150px;
+	border-radius: 50%;
+    margin: 10px;
+}
+
+.galeria
+{
+   display: flex;
+   flex-direction: column;
 }
 }

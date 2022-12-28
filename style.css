@@ -15,6 +15,16 @@
     flex-direction: column;
 }
 
+.titulo_generico
+{
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 2.4rem;
+    margin-top: 6rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
 body
 {
     font-family: 'Open Sans', sans-serif;
@@ -51,7 +61,7 @@ body
 {
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 2.6rem;
+    font-size: 2.3rem;
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 1.5rem;
@@ -80,6 +90,8 @@ body
 {
     width: 80%;
     text-align: center;
+    margin-top: 2rem;
+    text-transform: uppercase;
 }
 
 .titulo__lista {
@@ -92,9 +104,14 @@ body
     font-weight: bold;
 }
 
+.lista__texto
+{
+    padding:.1rem .6rem 1rem;
+    font-size: 1.2rem;
+}
+
 .lista {
-    padding: .5rem;
-    
+    padding: 1rem;
     border-radius: 10px;
     color: rgb(0, 0, 0);
     /* text-transform: uppercase; */
@@ -153,7 +170,7 @@ body
     margin-top: 2rem;
     line-height: normal;
     font-size: 1.4rem;
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 .whoiamtitulo{    
@@ -208,11 +225,17 @@ body
 
 .comeceja{
 
-    margin-top: 2rem;
+    margin-top: 10rem;
     font-size: 1.7rem;
     text-align: center;
-    margin: 1rem;
+    padding: 5rem 1rem;
     font-weight: 700;
+    background-color: rgba(0, 0, 206, 0.637);
+}
+
+.ja_titulo
+{
+    color: rgb(255, 255, 255);
 }
 
 .garantia{
@@ -222,3 +245,30 @@ body
     margin: 0 auto;
 }
 
+/* secao galeria */
+
+.galeria
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+}
+
+.galeria_imagem
+{
+    border-radius: 100%;
+    width: 150px;
+	height: 150px;
+	border-radius: 50%;
+    margin: 10px;
+}
+
+.galeria_imagens
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
